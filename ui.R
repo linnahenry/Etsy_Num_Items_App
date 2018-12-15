@@ -1,4 +1,6 @@
 
+library(shiny)
+library(rvest)
 
 shinyUI(bootstrapPage(
 	selectInput(inputId = "categories",

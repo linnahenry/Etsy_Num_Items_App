@@ -1,3 +1,7 @@
+
+library(shiny)
+library(rvest)
+
 shinyServer(function(input, output){
 		
 	
